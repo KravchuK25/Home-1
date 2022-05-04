@@ -1,0 +1,154 @@
+
+:root{
+    --one-text-color:#404040;
+    --two-text-color:#ffffff; 
+    --butoon-color:#2468ff;
+}
+.body{
+    color:var(--one-text-color);
+    background-color:#10cd10;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.38;
+    text-align: center;
+}
+.title{
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+/* header  */
+.header .text{
+    color: var(--two-text-color);
+    background: #161F49;
+    font-size: 14px;
+    line-height: 1.64;
+}
+ul{
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    color:var(--one-text-color);
+}
+.nav a:hover,
+.nav a:focus{
+    color: var(--butoon-color);
+}
+button{
+    color: var(--two-text-color);
+    background-color: var(--butoon-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1;
+}
+.header .button{
+    line-height: 1,8;
+}
+
+/*hero*/
+.hero{
+    color: var(--two-text-color);
+}
+.hero .title{
+    font-size: 72px;
+    line-height: 1.11;
+}
+.hero .text{
+    font-size: 21px;
+    line-height: 1.4;
+}
+.hero .button{
+    background-color: transparent;
+}
+/*slogan*/
+.slogan .subtitle{
+    font-size: 18px;
+    line-height: 1.17;
+}
+.slogan .text{
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+/*shop*/
+.caption {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    text-transform: uppercase;
+}
+.shop .subject{
+    font-size: 36px;
+    line-height: 1,22;
+}
+.price{
+    font-weight: 700
+}
+/*jornal*/
+.jornal .title{
+    font-weight: 700;
+    font-size: 42px;
+}
+.jornal .text{
+    color: red;
+    font-weight: 700;
+}
+/*advantage*/
+.advantage .uptitle{
+    font-size: 21px;
+    line-height: 1.14;
+}
+.advantage .subtitle{
+    font-size: 14px;
+    line-height: 1.14;
+}
+.span{
+    color: red;
+}
+/*setting*/
+.setting .button{
+    background-color: #999999;
+}
+/*care*/
+.care .link{
+    text-decoration: none;
+    color: #999999;
+    text-transform: uppercase;
+    }
+.care .link:hover,
+.care .link:focus{
+    color:#2468FF;
+    }
+.care .subtitle{
+    font-size: 36px;
+    line-height: 1.44;
+    }
+/*footer*/
+.footer{
+    color: var(--two-text-color);
+}
+.footer .link{
+    text-decoration: none;
+    color: var(--two-text-color);
+}
+.footer .link:hover,
+.footer .link:focus{
+    color: var(--butoon-color);
+}
+.copyright{
+    font-size: 14px;
+}
+.footer .title{
+    font-size: 36px;
+}
+.footer .amail{
+    color: var(--two-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+}
+.footer .button{
+    background-color: transparent;
+}
